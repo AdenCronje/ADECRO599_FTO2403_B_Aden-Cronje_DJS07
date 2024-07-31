@@ -17,7 +17,7 @@ export default function Meme() {
   }, []);
   // console.log(allMemes);
 
-  // Renders random image for meme
+  // Renders random image for meme generator
   function getMemeImage() {
     const randomNumber = Math.floor(Math.random() * allMemes.length);
     const url = allMemes[randomNumber].url;
